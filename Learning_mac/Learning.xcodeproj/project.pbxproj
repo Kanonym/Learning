@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA75CD7F1E0864D8000E630C /* file_out.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA75CD7E1E0864D8000E630C /* file_out.cpp */; };
+		DA75CD821E0A0BA9000E630C /* file_out.h in Sources */ = {isa = PBXBuildFile; fileRef = DA75CD7D1E0861AF000E630C /* file_out.h */; };
+		DA75CD851E0A365B000E630C /* myclass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA75CD831E0A365B000E630C /* myclass.cpp */; };
+		DA75CD861E0A44B2000E630C /* myclass.h in Sources */ = {isa = PBXBuildFile; fileRef = DA75CD841E0A365B000E630C /* myclass.h */; };
+		DA75CD891E0AF743000E630C /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA75CD871E0AF742000E630C /* Person.cpp */; };
+		DA75CD8C1E0AF751000E630C /* Birthday.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA75CD8A1E0AF751000E630C /* Birthday.cpp */; };
+		DA75CD8D1E0B0CD3000E630C /* Person.hpp in Sources */ = {isa = PBXBuildFile; fileRef = DA75CD881E0AF743000E630C /* Person.hpp */; };
+		DA75CD8E1E0B0CD3000E630C /* Birthday.hpp in Sources */ = {isa = PBXBuildFile; fileRef = DA75CD8B1E0AF751000E630C /* Birthday.hpp */; };
 		DAA46DD61E04DADB0087F17C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAA46DD51E04DADB0087F17C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +31,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DA75CD7D1E0861AF000E630C /* file_out.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = file_out.h; sourceTree = "<group>"; };
+		DA75CD7E1E0864D8000E630C /* file_out.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file_out.cpp; sourceTree = "<group>"; };
+		DA75CD801E089E23000E630C /* References.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = References.cpp; path = ../References.cpp; sourceTree = "<group>"; };
+		DA75CD831E0A365B000E630C /* myclass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myclass.cpp; sourceTree = "<group>"; };
+		DA75CD841E0A365B000E630C /* myclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myclass.h; sourceTree = "<group>"; };
+		DA75CD871E0AF742000E630C /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		DA75CD881E0AF743000E630C /* Person.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		DA75CD8A1E0AF751000E630C /* Birthday.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Birthday.cpp; sourceTree = "<group>"; };
+		DA75CD8B1E0AF751000E630C /* Birthday.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Birthday.hpp; sourceTree = "<group>"; };
 		DAA46DD21E04DADB0087F17C /* Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA46DD51E04DADB0087F17C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +74,16 @@
 		DAA46DD41E04DADB0087F17C /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				DA75CD801E089E23000E630C /* References.cpp */,
 				DAA46DD51E04DADB0087F17C /* main.cpp */,
+				DA75CD7D1E0861AF000E630C /* file_out.h */,
+				DA75CD7E1E0864D8000E630C /* file_out.cpp */,
+				DA75CD831E0A365B000E630C /* myclass.cpp */,
+				DA75CD841E0A365B000E630C /* myclass.h */,
+				DA75CD871E0AF742000E630C /* Person.cpp */,
+				DA75CD881E0AF743000E630C /* Person.hpp */,
+				DA75CD8A1E0AF751000E630C /* Birthday.cpp */,
+				DA75CD8B1E0AF751000E630C /* Birthday.hpp */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -119,6 +145,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA75CD8D1E0B0CD3000E630C /* Person.hpp in Sources */,
+				DA75CD8E1E0B0CD3000E630C /* Birthday.hpp in Sources */,
+				DA75CD8C1E0AF751000E630C /* Birthday.cpp in Sources */,
+				DA75CD861E0A44B2000E630C /* myclass.h in Sources */,
+				DA75CD851E0A365B000E630C /* myclass.cpp in Sources */,
+				DA75CD821E0A0BA9000E630C /* file_out.h in Sources */,
+				DA75CD7F1E0864D8000E630C /* file_out.cpp in Sources */,
+				DA75CD891E0AF743000E630C /* Person.cpp in Sources */,
 				DAA46DD61E04DADB0087F17C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +280,7 @@
 				DAA46DDB1E04DADB0087F17C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
